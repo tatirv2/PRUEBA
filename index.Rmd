@@ -116,8 +116,8 @@ inp.lm <- lm(inp[,2]~inp[,3], data=inp)
 summary(inp.lm)
 ```
 
-
+## Gráficos modelo de regreción lineal
 
 ```{r}
-
+plot(inp.lm)
 ```
